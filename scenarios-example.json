@@ -1,0 +1,9 @@
+[
+  {
+    "label": "Home",
+    "url": "https://example.com",
+    "referenceUrl": "https://example.com",
+    "selectors": ["document"],
+    "misMatchThreshold": 0.1
+  }
+]
