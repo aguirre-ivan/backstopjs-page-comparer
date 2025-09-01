@@ -6,13 +6,20 @@ The project is fully containerized with Docker, so you don’t need to install N
 
 ## Configuration
 
-1. Copy the example scenarios file:
+1. Clone this repository and move into the project folder:
+
+```bash
+git clone https://github.com/aguirre-ivan/backstopjs-page-comparer \
+&& cd backstopjs-page-comparer
+```
+
+2. Copy the example scenarios file:
 
 ```bash
 cp scenarios-example.json scenarios.json
 ```
 
-2. Edit `scenarios.json`and set the pages you want to compare. Example:
+3. Edit `scenarios.json`and set the pages you want to compare. Example:
 
 ```json
 [
